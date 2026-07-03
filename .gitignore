@@ -1,0 +1,33 @@
+# Secrets and local state
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.mobileprovision
+id_rsa*
+id_ed25519*
+
+# Runtime data
+var/**
+!var/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.pid
+
+# User/private files
+home/**
+!home/.gitkeep
+
+# Tool caches
+node_modules/
+target/
+.cache/
+.DS_Store
+
+opt/linux/sdk/
+etc/opt/claude-code/
+
