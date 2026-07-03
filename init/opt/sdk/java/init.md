@@ -5,7 +5,7 @@
 - 用途：JDK、Maven、Gradle。
 - macOS 推荐安装方式：brew 或 SDKMAN。
 - Linux 推荐安装方式：优先使用 apt 安装 OpenJDK；需要多版本时再手动安装到 `/xyz/opt/linux/sdk/java`。
-- 当前版本：按本机实际填写。
+- 当前版本：OpenJDK 25.0.3（2026-04-21）
 
 ## 目录布局
 

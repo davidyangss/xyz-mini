@@ -5,7 +5,7 @@
 - 用途：Go 语言工具链。
 - macOS 安装方式：`brew install go`。
 - **Linux 安装方式（强制）**：禁止使用 `apt install golang-go`，必须采用手动解压方式，安装到 `/xyz/opt/linux/sdk/go`。
-- 当前版本：go1.23.9（2025-05-01）
+- 当前版本：go1.26.4（2026-07-03）
 
 > 本规则遵循 [AGENTS.md](../../../AGENTS.md) 中的安装优先级约定：Linux 下 Go 强制使用方式 🥉（手动解压）。
 
@@ -24,7 +24,7 @@ brew 会处理 PATH，通常不需要额外设置 `GOROOT`。
 mkdir -p /xyz/opt/linux/sdk /xyz/var/go
 
 # 下载 tarball（如需代理：export https_proxy=http://127.0.0.1:7897）
-curl -fsSL https://go.dev/dl/go1.23.9.linux-amd64.tar.gz -o /tmp/go.tar.gz
+curl -fsSL https://go.dev/dl/go1.26.4.linux-amd64.tar.gz -o /tmp/go.tar.gz
 
 # 解压到 SDK 目录
 sudo rm -rf /xyz/opt/linux/sdk/go

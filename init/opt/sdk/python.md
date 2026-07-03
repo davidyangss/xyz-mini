@@ -5,7 +5,7 @@
 - 用途：Python 运行时和脚本环境。
 - macOS 推荐安装方式：`brew install python`。
 - Linux 推荐安装方式：`apt install python3 python3-venv python3-pip`。
-- 当前版本：按本机实际填写。
+- 当前版本：Python 3.14.4，pip 25.1.1
 
 ## macOS
 
